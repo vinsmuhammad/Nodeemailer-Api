@@ -21,3 +21,12 @@ Respons sukses: `{ "ok": true, "id": "..." }`
 - `MAIL_FROM` harus alamat yang sudah diverifikasi di penyedia SMTP (misal Brevo: Senders & IP > Senders).
 - `API_SECRET` dibuat sendiri, string acak panjang (misal 32+ karakter). Jangan dibagikan.
 - Batas pengiriman mengikuti plan penyedia SMTP, bukan Vercel.
+
+## Konfigurasi
+Di Vercel, buka Settings > Environment Variables, lalu isi:
+	•	API_SECRET: string acak panjang buatanmu sendiri.
+	•	SMTP_HOST: smtp.gmail.com. 
+	•	SMTP_PORT: 587.
+	•	SMTP_USER: email akun Gmail.
+	•	SMTP_KEY: App Password 16 karakter.
+	•	MAIL_FROM: alamat Gmail yang sama, misalnya Nama Bot <kamu@gmail.com>.
