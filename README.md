@@ -24,15 +24,9 @@ Respons sukses: `{ "ok": true, "id": "..." }`
 
 ## Konfigurasi
 Di Vercel, buka Settings > Environment Variables, lalu isi:
-
-	•	API_SECRET: string acak panjang buatanmu sendiri
-	
-	•	SMTP_HOST: smtp.gmail.com
-	
-	•	SMTP_PORT: 587
-	
-	•	SMTP_USER: email akun Gmail
-	
-	•	SMTP_KEY: App Password 16 karakter
-	
-	•	MAIL_FROM: alamat Gmail yang sama, misalnya Nama Bot <kamu@gmail.com>
+	-	API_SECRET: string acak panjang buatanmu sendiri
+	-	SMTP_HOST: smtp.gmail.com
+	-	SMTP_PORT: 587	
+	-	SMTP_USER: email akun Gmail	
+	-	SMTP_KEY: App Password 16 karakter
+	-	MAIL_FROM: alamat Gmail yang sama, misalnya Nama Bot <kamu@gmail.com>
