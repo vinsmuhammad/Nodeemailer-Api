@@ -1,0 +1,12 @@
+{
+  "name": "email-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API kirim email (nodemailer) untuk dijalankan di Vercel",
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
